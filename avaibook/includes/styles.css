@@ -1,0 +1,314 @@
+/* Estilos para el formulario */
+
+
+.container {
+    width: 80%;
+    padding: 20px;
+    background-color: #F8AC59;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 30px;
+    color: #fff;
+}
+
+.container-flexible {
+    width: 60%;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 30px;
+    color: #333;
+}
+
+h1 {
+    text-align: center;
+}
+
+form {
+    justify-content: center;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: flex-end;
+}
+
+.row-flexible {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    padding: 10px;
+}
+
+.col {
+    flex: 1 1;
+}
+
+.col:last-child {
+    margin-right: 0;
+    text-align: center;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+input[type="date"],
+input[type="number"] {
+    width: 90%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.search-btn {
+    width: 40%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #F8AC59;
+    border-radius: 20px;
+    background-color: #293846;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+.flexible-btn {
+    width: 50%;
+    padding: 10px;
+    font-size: 16px;
+    border: 1px solid #293846;
+    border-radius: 20px;
+    background-color: #293846;
+    color: #fff;
+    cursor: pointer;
+    text-align: center;
+
+}
+
+button:hover {
+    background-color: #6e4e2c;
+}
+
+select {
+    font-size: 16px;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 20px;
+}
+
+.texto-flex {
+    font-size: 1.8em;
+}
+
+/* Media Query para hacer responsive */
+@media screen and (max-width: 786px) {
+    .col {
+        flex-basis: 100%;
+    }
+
+    .row {
+        justify-content: center;
+    }
+
+    .search-btn {
+        width: 20%;
+        margin-top: 10px;
+        padding: 5px;
+    }
+
+    input[type="date"],
+    input[type="number"] {
+        width: 100%;
+    }
+}
+
+
+/* Estilos para la lista de propiedades */
+/* Estilos generales */
+.container-propiedades {
+    width: 80%;
+    padding: 20px;
+    background-color: #fff;
+    border-radius: 20px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    margin: auto;
+    margin-top: 30px;
+    color: #293846;
+}
+
+.properties-container {
+    margin-left: auto;
+    margin-right: auto;
+    width: 100%;
+}
+
+.properties-list {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    padding: 0;
+    list-style: none;
+}
+
+.propiedad-disponible {
+    background-color: #F8F8F8;
+    padding: 20px;
+    margin-bottom: 20px;
+    border-radius: 20px;
+    box-sizing: border-box;
+    transition: background-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+.propiedad-disponible:hover {
+    background-color: #e0e0e0;
+    /* Cambia el color de fondo al pasar el ratón */
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+    /* Agrega una sombra más pronunciada */
+}
+
+.property-details {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 10px;
+}
+
+.image-container {
+    width: 100%;
+    overflow: hidden;
+    border-radius: 5px;
+    margin-bottom: 10px;
+}
+
+.property-image {
+    width: 100%;
+    height: 150px;
+    /* Ajusta la altura para que no sea muy grande */
+    object-fit: cover;
+    border-radius: 5px;
+}
+
+.details-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    flex: 1;
+    align-items: center;
+    text-align: center;
+}
+
+.details-btn {
+    color: #fff;
+    padding: 5px 10px;
+    border-radius: 20px;
+    text-decoration: none;
+    background-color: #F8AC59;
+    width: 30%;
+    text-align: center;
+}
+
+p {
+    margin: 10px 0;
+}
+
+/* Estilos para vista de cuadrícula y lista */
+.grid-view .propiedad-disponible {
+    width: calc(33.3333% - 20px);
+    /* Tres columnas en vista de cuadrícula */
+}
+
+.list-view .propiedad-disponible {
+    width: 100%;
+    /* Una columna en vista de lista */
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+.list-view .property-details {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100%;
+}
+
+.list-view .image-container {
+    flex: 1;
+    max-width: 150px;
+    /* Fijar el ancho máximo de la imagen */
+}
+
+.list-view .details-container {
+    padding-left: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.list-view .details-btn {
+    flex: 1;
+    align-self: center;
+    margin-left: 20px;
+}
+
+/* Media Queries */
+@media(max-width: 897px) {
+    .grid-view .propiedad-disponible {
+        width: calc(50% - 20px);
+        /* Dos columnas en pantallas medianas */
+    }
+}
+
+@media(max-width: 767px) {
+    .grid-view .propiedad-disponible {
+        width: 100%;
+        /* Una columna en pantallas pequeñas */
+    }
+
+    .list-view .propiedad-disponible {
+        flex-direction: column;
+    }
+
+    .list-view .property-details {
+        flex-direction: column;
+    }
+
+    .list-view .image-container,
+    .list-view .details-container,
+    .list-view .details-btn {
+        width: 100%;
+        max-width: none;
+        margin-left: 0;
+    }
+
+    .list-view .details-btn {
+        margin-top: 10px;
+    }
+}
+
+/* Botones de cambio de vista */
+.view-buttons {
+    text-align: right;
+    margin-bottom: 20px;
+}
+
+.view-buttons button {
+    padding: 10px 20px;
+    margin: 0 10px;
+    border: none;
+    border-radius: 20px;
+    background-color: #293846;
+    color: #fff;
+    cursor: pointer;
+}
+
+.view-buttons button:hover {
+    background-color: #F8AC59;
+}

@@ -1,0 +1,139 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-05-31 11:02+0200\n"
+"PO-Revision-Date: 2024-05-31 11:29+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: pt\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ../includes\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: classes/class_busqueda.php\n"
+"X-Poedit-SearchPath-1: buscar_propiedades.php\n"
+
+#: buscar_propiedades.php:74
+msgid "Entrada"
+msgstr "Entrada"
+
+#: buscar_propiedades.php:78
+msgid "Salida"
+msgstr "Saída"
+
+#: buscar_propiedades.php:82
+msgid "Personas"
+msgstr "Pessoas"
+
+#: buscar_propiedades.php:86
+msgid "Vamos!"
+msgstr "Vamos lá!"
+
+#: buscar_propiedades.php:95
+msgid "Estamos buscando entre todas nuestras propiedades."
+msgstr "Estamos procurando entre todas as nossas propriedades."
+
+#: buscar_propiedades.php:172 buscar_propiedades.php:182
+msgid "Durante el periodo seleccionado solo se permiten estancias de"
+msgstr "Durante o período selecionado, apenas são permitidas estadias de"
+
+#: buscar_propiedades.php:172
+msgid "días con entrada el"
+msgstr "dias com entrada em"
+
+#: buscar_propiedades.php:172
+msgid "y salida el"
+msgstr "e saída em"
+
+#: buscar_propiedades.php:182
+msgid " días"
+msgstr " dias"
+
+#: buscar_propiedades.php:204
+msgid ""
+"Puede haber propiedades disponibles con las siguientes restricciones de "
+"estancia:"
+msgstr ""
+"Podem haver propriedades disponíveis com as seguintes restrições de estadia:"
+
+#: buscar_propiedades.php:209
+msgid "propiedades con una estancia mínima de"
+msgstr "propriedades com uma estadia mínima de"
+
+#: buscar_propiedades.php:209
+msgid "días"
+msgstr "dias"
+
+#: buscar_propiedades.php:213
+msgid "Ver disponibilidad"
+msgstr "Ver disponibilidade"
+
+#: buscar_propiedades.php:233
+msgid "No hay más propiedades disponibles."
+msgstr "Não há mais propriedades disponíveis."
+
+#: classes/class_busqueda.php:227
+msgid "Estas son las propiedades disponibles en tus fechas"
+msgstr "Estas são as propriedades disponíveis nas suas datas"
+
+#: classes/class_busqueda.php:233 classes/class_busqueda.php:352
+msgid "Ups!, parece que no hay propiedades disponibles en estas fechas."
+msgstr "Ops!, parece que não há propriedades disponíveis nessas datas."
+
+#: classes/class_busqueda.php:253 classes/class_busqueda.php:314
+#: classes/class_busqueda.php:372
+msgid "Precio total de la estancia:"
+msgstr "Preço total da estadia:"
+
+#: classes/class_busqueda.php:254 classes/class_busqueda.php:315
+#: classes/class_busqueda.php:373
+msgid "Reservar"
+msgstr "Reservar"
+
+#: classes/class_busqueda.php:288
+msgid "Estas serían las propiedades disponibles con restricción. Entrada "
+msgstr "Estas são as propriedades disponíveis nas suas datas "
+
+#: classes/class_busqueda.php:288
+msgid " y salida "
+msgstr " e saída em "
+
+#: classes/class_busqueda.php:294
+msgid ""
+"Ups!, parece que ninguna de las propiedades con restriciones está disponible."
+msgstr ""
+"Opa! Parece que nenhuma das propriedades com restrições está disponível."
+
+#: classes/class_busqueda.php:345
+msgid "Ups!, parece que en tus fechas no hay propiedades disponibles."
+msgstr "Ops!, parece que nas suas datas não há propriedades disponíveis."
+
+#: classes/class_busqueda.php:346
+msgid "Pero si modificas tus fechas del "
+msgstr "Mas se você modificar suas datas de "
+
+#: classes/class_busqueda.php:346
+msgid " al "
+msgstr " até "
+
+#: classes/class_busqueda.php:346
+msgid " tienes estas opciones."
+msgstr " você tem estas opções."
+
+#~ msgid ""
+#~ "Estas son las propiedades disponibles que cumplen con las restricciones "
+#~ "adicionales:"
+#~ msgstr "Estas são as propriedades disponíveis nas suas datas:"
+
+#, fuzzy, php-format
+#~| msgid "Durante el periodo seleccionado solo se permiten estancias de"
+#~ msgid ""
+#~ "Durante el periodo seleccionado solo se permiten estancias de %1$s días "
+#~ "con entrada el %2$s y salida el %3$s"
+#~ msgstr "Durante o período selecionado, apenas são permitidas estadias de"
+
+#~ msgid "noches"
+#~ msgstr "noites"

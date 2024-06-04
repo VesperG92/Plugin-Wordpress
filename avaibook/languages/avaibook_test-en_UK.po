@@ -1,0 +1,125 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-05-31 11:02+0200\n"
+"PO-Revision-Date: 2024-05-31 11:03+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: en\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ../includes\n"
+"X-Poedit-KeywordsList: __\n"
+"X-Poedit-SearchPath-0: classes/class_busqueda.php\n"
+"X-Poedit-SearchPath-1: buscar_propiedades.php\n"
+
+#: buscar_propiedades.php:74
+msgid "Entrada"
+msgstr "Check in"
+
+#: buscar_propiedades.php:78
+msgid "Salida"
+msgstr "Check out"
+
+#: buscar_propiedades.php:82
+msgid "Personas"
+msgstr "Guests"
+
+#: buscar_propiedades.php:86
+msgid "Vamos!"
+msgstr "Go!"
+
+#: buscar_propiedades.php:95
+msgid "Estamos buscando entre todas nuestras propiedades."
+msgstr "We are searching all our properties."
+
+#: buscar_propiedades.php:172 buscar_propiedades.php:182
+msgid "Durante el periodo seleccionado solo se permiten estancias de"
+msgstr "During the selected period only stays of"
+
+#: buscar_propiedades.php:172
+msgid "días con entrada el"
+msgstr "days with check in"
+
+#: buscar_propiedades.php:172
+msgid "y salida el"
+msgstr "and check out"
+
+#: buscar_propiedades.php:182
+msgid " días"
+msgstr " days"
+
+#: buscar_propiedades.php:204
+msgid ""
+"Puede haber propiedades disponibles con las siguientes restricciones de "
+"estancia:"
+msgstr "We may have some properties with restrictions of mínimum stay:"
+
+#: buscar_propiedades.php:209
+msgid "propiedades con una estancia mínima de"
+msgstr "properties with a mínimum stay of"
+
+#: buscar_propiedades.php:209
+msgid "días"
+msgstr "days"
+
+#: buscar_propiedades.php:213
+msgid "Ver disponibilidad"
+msgstr "See availability"
+
+#: buscar_propiedades.php:233
+msgid "No hay más propiedades disponibles."
+msgstr "We don´t have more properties available."
+
+#: classes/class_busqueda.php:227
+msgid "Estas son las propiedades disponibles en tus fechas"
+msgstr "This are the properties available on your dates"
+
+#: classes/class_busqueda.php:233 classes/class_busqueda.php:352
+msgid "Ups!, parece que no hay propiedades disponibles en estas fechas."
+msgstr "Ups! It looks like we don´t have availability on those dates."
+
+#: classes/class_busqueda.php:253 classes/class_busqueda.php:314
+#: classes/class_busqueda.php:372
+msgid "Precio total de la estancia:"
+msgstr "Total Price:"
+
+#: classes/class_busqueda.php:254 classes/class_busqueda.php:315
+#: classes/class_busqueda.php:373
+msgid "Reservar"
+msgstr "Book"
+
+#: classes/class_busqueda.php:288
+msgid "Estas serían las propiedades disponibles con restricción. Entrada "
+msgstr "We have some properties with restriction of mínimum stay. Check in "
+
+#: classes/class_busqueda.php:288
+msgid " y salida "
+msgstr " and check out "
+
+#: classes/class_busqueda.php:294
+msgid ""
+"Ups!, parece que ninguna de las propiedades con restriciones está disponible."
+msgstr "Ups! It looks like we don´t have availability on those properties."
+
+#: classes/class_busqueda.php:345
+msgid "Ups!, parece que en tus fechas no hay propiedades disponibles."
+msgstr "Ups! It looks like we don´t have availability."
+
+#: classes/class_busqueda.php:346
+msgid "Pero si modificas tus fechas del "
+msgstr "But if you modify your dates from "
+
+#: classes/class_busqueda.php:346
+msgid " al "
+msgstr " to "
+
+#: classes/class_busqueda.php:346
+msgid " tienes estas opciones."
+msgstr " you have this options."
+
+#~ msgid "noches"
+#~ msgstr "nights"

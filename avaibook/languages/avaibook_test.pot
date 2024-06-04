@@ -1,0 +1,147 @@
+#, fuzzy
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2024-05-31 13:07+0200\n"
+"PO-Revision-Date: 2024-05-28 10:57+0200\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"Language: es\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Generator: Poedit 3.4.4\n"
+"X-Poedit-Basepath: ../includes\n"
+"X-Poedit-KeywordsList: __;_e;__($entrada;__($salida\n"
+"X-Poedit-SearchPath-0: classes/class_busqueda.php\n"
+"X-Poedit-SearchPath-1: buscar_propiedades.php\n"
+
+#: buscar_propiedades.php:11
+msgid "DOMINGO"
+msgstr ""
+
+#: buscar_propiedades.php:12
+msgid "LUNES"
+msgstr ""
+
+#: buscar_propiedades.php:13
+msgid "MARTES"
+msgstr ""
+
+#: buscar_propiedades.php:14
+msgid "MIERCOLES"
+msgstr ""
+
+#: buscar_propiedades.php:15
+msgid "JUEVES"
+msgstr ""
+
+#: buscar_propiedades.php:16
+msgid "VIERNES"
+msgstr ""
+
+#: buscar_propiedades.php:17
+msgid "SABADO"
+msgstr ""
+
+#: buscar_propiedades.php:85
+msgid "Entrada"
+msgstr ""
+
+#: buscar_propiedades.php:89
+msgid "Salida"
+msgstr ""
+
+#: buscar_propiedades.php:93
+msgid "Personas"
+msgstr ""
+
+#: buscar_propiedades.php:97
+msgid "Vamos!"
+msgstr ""
+
+#: buscar_propiedades.php:106
+msgid "Estamos buscando entre todas nuestras propiedades."
+msgstr ""
+
+#: buscar_propiedades.php:183 buscar_propiedades.php:193
+msgid "Durante el periodo seleccionado solo se permiten estancias de"
+msgstr ""
+
+#: buscar_propiedades.php:183
+msgid "días con entrada el"
+msgstr ""
+
+#: buscar_propiedades.php:183
+msgid "y salida el"
+msgstr ""
+
+#: buscar_propiedades.php:193
+msgid " días"
+msgstr ""
+
+#: buscar_propiedades.php:215
+msgid "Puede haber propiedades disponibles con las siguientes restricciones de estancia:"
+msgstr ""
+
+#: buscar_propiedades.php:220
+msgid "propiedades con una estancia mínima de"
+msgstr ""
+
+#: buscar_propiedades.php:220
+msgid "días"
+msgstr ""
+
+#: buscar_propiedades.php:224
+msgid "Ver disponibilidad"
+msgstr ""
+
+#: buscar_propiedades.php:244
+msgid "No hay más propiedades disponibles."
+msgstr ""
+
+#: classes/class_busqueda.php:227
+msgid "Estas son las propiedades disponibles en tus fechas"
+msgstr ""
+
+#: classes/class_busqueda.php:233 classes/class_busqueda.php:352
+msgid "Ups!, parece que no hay propiedades disponibles en estas fechas."
+msgstr ""
+
+#: classes/class_busqueda.php:253 classes/class_busqueda.php:314
+#: classes/class_busqueda.php:372
+msgid "Precio total de la estancia:"
+msgstr ""
+
+#: classes/class_busqueda.php:254 classes/class_busqueda.php:315
+#: classes/class_busqueda.php:373
+msgid "Reservar"
+msgstr ""
+
+#: classes/class_busqueda.php:288
+msgid "Estas serían las propiedades disponibles con restricción. Entrada "
+msgstr ""
+
+#: classes/class_busqueda.php:288
+msgid " y salida "
+msgstr ""
+
+#: classes/class_busqueda.php:294
+msgid "Ups!, parece que ninguna de las propiedades con restriciones está disponible."
+msgstr ""
+
+#: classes/class_busqueda.php:345
+msgid "Ups!, parece que en tus fechas no hay propiedades disponibles."
+msgstr ""
+
+#: classes/class_busqueda.php:346
+msgid "Pero si modificas tus fechas del "
+msgstr ""
+
+#: classes/class_busqueda.php:346
+msgid " al "
+msgstr ""
+
+#: classes/class_busqueda.php:346
+msgid " tienes estas opciones."
+msgstr ""
